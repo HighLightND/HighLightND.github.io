@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #64247C;
+    color: #DACCE0;
+}
+
+.header {
+    border-style: solid;
+    border-color: #DACCE0;
+    border-width: 0.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.about {
+    padding: 9px;
+}
+
+.article {
+    padding: 9px;
+}
+
+
+.book {
+    padding: 9px;
+}
+
+.top {
+    text-align: center;
+    padding: 25px;
+    line-height: 40px;
+}
+
+.top .jong-q {
+    padding: 12px 40px;
+    width: 100%;
+    background-color: #DACCE0;
+    color: #64247C;
+    text-decoration: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+.para {
+    padding: 100px;
+}
+
+.img-moh {
+    padding: 0 10px;
+}
+
+.img-moh img {
+    width: 300px;
+    height: auto;
+}
+
+.reviews {
+    text-align: center;
+    padding: 50px;
+}
+
+.reviewer {
+    display: flex;
+    padding: 50px;
+}
+
+.reviewer img {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.reviewer .name {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.reviewer .re {
+    font-size: 12px;
+}
+
+.flex-item {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.map {
+    padding: 0 0 80px 300px;
+}
+
+iframe {
+    width: 600px;
+    height: 400px;
+}
+
+.details {
+    padding-left: 100px;
+    
+}
